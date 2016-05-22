@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'jsx-loader',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData jsx-loader
+8 silly fetchNamedPackageData jsx-loader
+9 silly mapToRegistry name jsx-loader
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/jsx-loader
+13 verbose request uri https://registry.npmjs.org/jsx-loader
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 8:29:07 AM
+16 verbose request using bearer token for auth
+17 verbose request id b908586dafcc6904
+18 http request GET https://registry.npmjs.org/jsx-loader
+19 info retry will retry, error on last attempt: Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+20 info attempt registry request try #2 at 8:29:17 AM
+21 verbose request using bearer token for auth
+22 http request GET https://registry.npmjs.org/jsx-loader
+23 info retry will retry, error on last attempt: Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+24 info attempt registry request try #3 at 8:30:17 AM
+25 verbose request using bearer token for auth
+26 http request GET https://registry.npmjs.org/jsx-loader
+27 silly fetchPackageMetaData Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+27 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:856:11)
+27 silly fetchPackageMetaData     at errnoException (dns.js:31:15)
+27 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+27 silly fetchPackageMetaData  error for jsx-loader { [Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443]
+27 silly fetchPackageMetaData   code: 'EAI_AGAIN',
+27 silly fetchPackageMetaData   errno: 'EAI_AGAIN',
+27 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+27 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+27 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+27 silly fetchPackageMetaData   port: 443 }
+28 silly rollbackFailedOptional Starting
+29 silly rollbackFailedOptional Finishing
+30 silly runTopLevelLifecycles Starting
+31 silly runTopLevelLifecycles Finishing
+32 silly install printInstalled
+33 verbose stack Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+33 verbose stack     at Object.exports._errnoException (util.js:856:11)
+33 verbose stack     at errnoException (dns.js:31:15)
+33 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+34 verbose cwd C:\Users\Pavel\WebstormProjects\react-redux
+35 error Windows_NT 10.0.10586
+36 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "jsx-loader" "--save-dev"
+37 error node v5.7.0
+38 error npm  v3.6.0
+39 error code EAI_AGAIN
+40 error errno EAI_AGAIN
+41 error syscall getaddrinfo
+42 error getaddrinfo EAI_AGAIN registry.npmjs.org:443
+43 error If you need help, you may report this error at:
+43 error     <https://github.com/npm/npm/issues>
+44 verbose exit [ 1, true ]
